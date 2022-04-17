@@ -7,17 +7,17 @@
 (若队列中没有元素，deleteHead 操作返回 -1 )
 
 - 示例1:
-  - 输入：
-    ["CQueue","appendTail","deleteHead","deleteHead"]
+  - 输入：\
+    ["CQueue","appendTail","deleteHead","deleteHead"]\
     [[],[3],[],[]]
-  - 输出：
+  - 输出：\
     [null,null,3,-1]
 
 - 示例2:
-  - 输入：
-    ["CQueue","deleteHead","appendTail","appendTail","deleteHead","deleteHead"]
+  - 输入：\
+    ["CQueue","deleteHead","appendTail","appendTail","deleteHead","deleteHead"]\
     [[],[],[5],[2],[],[]]
-  - 输出：
+  - 输出：\
     [null,-1,null,null,5,2]
 
 - 提示：
